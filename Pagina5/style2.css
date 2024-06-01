@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.toggle-theme button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+body{
+    background-color: #ffffff;
+}
+#secaometas{
+    background-color: #94c9ee;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#secaooqfalta{
+    background-color: rgb(169, 221, 49);
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px black;
+}
+
+#contact{
+    background-color: #94c9ee;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px black;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+header.dark-mode {
+    background-color: #222;
+}
+
+nav ul li a.dark-mode {
+    color: #ddd;
+}
+
+.goal.dark-mode {
+    background-color: #555;
+}
